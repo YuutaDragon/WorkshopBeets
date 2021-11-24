@@ -6,34 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
- 
+  <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
   <title>Calculadora</title>
 </head>
 <body>
   <main>
-    <div>
-      <div>0</div>
-      <div>
-        <button>+</button>
-        <button>-</button>
-        <button>&times;</button>
-        <button>÷</button>
-        <button>0</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>.</button>
-        <button>00</button>
-        <button>MS</button>
-        <button>MR</button>
-        <button>AC</button>
-        <button>=</button>
+    <div class="calculadora">
+      <div class="visor">0</div>
+      <div class="teclas">
+        <button class="operador somar">+</button>
+        <button class="operador subtrair">-</button>
+        <button class="operador multiplicar">&times;</button>
+        <button class="operador dividir">÷</button>
+        <button class="numero zero">0</button>
+        <button class="numero uum">1</button>
+        <button class="numero dois">2</button>
+        <button class="numero tres">3</button>
+        <button class="numero quatro">4</button>
+        <button class="numero cinco">5</button>
+        <button class="numero seis">6</button>
+        <button class="numero sete">7</button>
+        <button class="numero oito">8</button>
+        <button class="numero nove">9</button>
+        <button class="numero decimal">.</button>
+        <button class="numero duplo-zero">00</button>
+        <button class="acao salvar">MS</button>
+        <button class="acao recuperar">MR</button>
+        <button class="acao limpar">AC</button>
+        <button class="acao igual">=</button>
       </div>
     </div>
   </main>  
