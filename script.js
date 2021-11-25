@@ -35,12 +35,14 @@ teclas.addEventListener('click', (event) => {
   }
 
   if(tipoTecla === 'igual') {
-    const primeiroNumero = parseInt(calculadora.dataset.primeiroNumero)
+    const primeiroNumero = parseFloat(calculadora.dataset.primeiroNumero)
     const operador = calculadora.dataset.operador
-    const segundoNumero = parseInt(valorVisor)
+    const segundoNumero = parseFloat(valorVisor)
 
     let resultado = ''
-    console.log(operador)
+
+    console.log(primeiroNumero)
+    console.log(segundoNumero)
 
     if(operador === 'somar') resultado = primeiroNumero + segundoNumero
     if(operador === 'subtrair') resultado = primeiroNumero - segundoNumero
