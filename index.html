@@ -7,7 +7,7 @@
  
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <link rel="script" href="script.js">
+  <script src="script.js" defer ></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,26 +20,26 @@
     <div class="calculadora">
       <div class="visor">0</div>
       <div class="teclas">
-        <button class="operador somar">+</button>
-        <button class="operador subtrair">-</button>
-        <button class="operador multiplicar">&times;</button>
-        <button class="operador dividir">÷</button>
-        <button class="numero zero">0</button>
-        <button class="numero uum">1</button>
-        <button class="numero dois">2</button>
-        <button class="numero tres">3</button>
-        <button class="numero quatro">4</button>
-        <button class="numero cinco">5</button>
-        <button class="numero seis">6</button>
-        <button class="numero sete">7</button>
-        <button class="numero oito">8</button>
-        <button class="numero nove">9</button>
-        <button class="numero decimal">.</button>
-        <button class="numero duplo-zero">00</button>
-        <button class="acao salvar">MS</button>
-        <button class="acao recuperar">MR</button>
-        <button class="acao limpar">AC</button>
-        <button class="acao igual">=</button>
+        <button data-tecla="somar" data-tipo-tecla="operador">+</button>
+        <button data-tecla="subtrair" data-tipo-tecla="operador">-</button>
+        <button data-tecla="multiplicar" data-tipo-tecla="operador">&times;</button>
+        <button data-tecla="dividr" data-tipo-tecla="operador">÷</button>
+        <button data-tipo-tecla="numero" class="zero">0</button>
+        <button data-tipo-tecla="numero" class="um">1</button>
+        <button data-tipo-tecla="numero" class="dois">2</button>
+        <button data-tipo-tecla="numero" class="tres">3</button>
+        <button data-tipo-tecla="numero" class="quatro">4</button>
+        <button data-tipo-tecla="numero" class="cinco">5</button>
+        <button data-tipo-tecla="numero" class="seis">6</button>
+        <button data-tipo-tecla="numero" class="sete">7</button>
+        <button data-tipo-tecla="numero" class="oito">8</button>
+        <button data-tipo-tecla="numero" class="nove">9</button>
+        <button data-tipo-tecla="numero" class="decimal">.</button>
+        <button data-tipo-tecla="numero" class="duplo-zero">00</button>
+        <button data-tipo-tecla="salvar" class="acao">MS</button>
+        <button data-tipo-tecla="recuperar" class="acao">MR</button>
+        <button data-tipo-tecla="limpar" class="acao">AC</button>
+        <button data-tipo-tecla="igual" class="acao">=</button>
       </div>
     </div>
   </main>  
